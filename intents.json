@@ -1,0 +1,135 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tagesangebote",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TagesangeboteIntent",
+                    "slots": [
+                        {
+                            "name": "angebot",
+                            "type": "angebot"
+                        },
+                        {
+                            "name": "shop",
+                            "type": "shop"
+                        }
+                    ],
+                    "samples": [
+                        "{shop}",
+                        "was ist das {angebot} von {shop}",
+                        "was sind die heutigen {angebot} von {shop}",
+                        "was hat {shop} im {angebot} ",
+                        "{angebot} {shop}",
+                        "was ist das heutige {angebot} von {shop}",
+                        "was sind die {angebot} von {shop}",
+                        "zeig mir die {angebot} von {shop}",
+                        "zeig mir das heutige {angebot} von {shop}",
+                        "zeig mir das {angebot} von {shop}",
+                        "zeig mir {angebot} von {shop}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "Ja bitte",
+                        "Bitte",
+                        "Ja"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "angebot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Empfehlung"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Empfehlungen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Angebote"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Angebot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tagesangebote"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tagesangebot"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "shop",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "betzold"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hagebau"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vangraaf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mammut"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "puma"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "globetrotter"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
