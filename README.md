@@ -1,0 +1,2 @@
+# ProjektC
+AlexaSkillTagesangebote
